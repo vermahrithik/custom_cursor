@@ -140,24 +140,3 @@ para.addEventListener('mouseover',function(){
         document.querySelector('#box').style.opacity=`1`;
     document.querySelector('#box').style.boxShadow=`0px 0px 8px white`;
 })
-
-
-
-
-
-// const heart=document.querySelector("#heart")
-// heart.addEventListener('mouseover',function(){
-//         document.querySelector('#box').style.cursor='translate(-50%,-50%) scale(0.5)';
-//         setTimeout(()=>{
-//             document.querySelector('#box').style.cursor='translate(-50%,-50%) scale(60)';
-//         },1000)
-//         // document.querySelector('#heart').style.colorBlendMode='difference';
-//         // document.querySelector('#main').style.webkitFilter='blur(5px)';
-//     })
-//     heart.addEventListener('mouseout',function(){
-//         // document.querySelector('#main').style.webkitFilter='none';
-//         document.querySelector('#box').style.cursor='translate(-50%,-50%) scale(70)';
-//         // document.querySelector('#box').style.cursor='translate(-50%,-50%) scale(0.5)';
-//         // document.querySelector('#heart').style.colorBlendMode='none';
-//         // document.querySelector('#main').style.display='';
-// })
